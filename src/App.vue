@@ -1,8 +1,11 @@
 <script setup lang="ts">
 import FreeConsultation from "./components/FreeConsultation.vue";
-import SkillsSection from "./components/SkillsSection.vue";
-import AboutSection from "./components/AboutSection.vue";
-import WorkSection from "./components/WorkSection.vue";
+import {
+  SkillsSection,
+  AboutSection,
+  WorkSection,
+  ConsultationSection,
+} from "@/components/Sections";
 </script>
 
 <template>
@@ -13,7 +16,7 @@ import WorkSection from "./components/WorkSection.vue";
     <SkillsSection />
     <AboutSection />
     <WorkSection />
-    <section id="consultation"></section>
+    <ConsultationSection />
   </main>
   <footer></footer>
 </template>

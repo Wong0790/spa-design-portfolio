@@ -16,6 +16,8 @@ export default {
       },
       maxWidth: {
         "screen-2xl": "1440px",
+        "screen-2xl": "1440px",
+        "6xl": "1110px",
         "3xl": "680px",
         xl: "540px",
         xs: "339px",
@@ -52,7 +54,9 @@ export default {
       },
       padding: {
         "164px": "10.25rem",
+        "75px": "4.6875rem",
         "68px": "4.25rem",
+        "65px": "4.0625rem",
         "45px": "2.8125rem",
         "38px": "2.375rem",
         "14px": "0.875rem",

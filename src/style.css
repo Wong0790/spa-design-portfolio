@@ -98,7 +98,7 @@ body {
 }
 
 .work-container {
-  @apply text-center mt-16 md:mt-88px;
+  @apply text-center my-16 md:my-88px;
 }
 
 .carousel__item {
@@ -107,4 +107,16 @@ body {
 
 .carousel__slide {
   @apply p-1.5 lg:p-2.5;
+}
+
+.consultation-card {
+  @apply bg-almost-black text-light-cream flex flex-col lg:flex-row justify-between items-center max-w-6xl w-full px-12 py-6 sm:px-75px sm:py-14 lg:px-65px lg:py-20 rounded-xl text-center lg:text-left;
+}
+
+.consultation-card h2 {
+  @apply text-light-cream;
+}
+
+.consultation-card p {
+  @apply max-w-lg my-6 lg:mt-6 lg:mb-0 font-normal;
 }

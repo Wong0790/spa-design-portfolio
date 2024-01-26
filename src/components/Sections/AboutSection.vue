@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import DesignerImg from "./DesignerImg.vue";
+import DesignerImg from "@/components/DesignerImg.vue";
 </script>
 
 <template>
