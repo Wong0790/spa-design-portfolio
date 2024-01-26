@@ -1,11 +1,9 @@
 <script setup lang="ts">
 import FreeConsultation from "./components/FreeConsultation.vue";
-import {
-  SkillsSection,
-  AboutSection,
-  WorkSection,
-  ConsultationSection,
-} from "./components/Sections";
+import SkillsSection from "./components/Sections/SkillsSection.vue";
+import AboutSection from "./components/Sections/AboutSection.vue";
+import WorkSection from "./components/Sections/WorkSection.vue";
+import ConsultationSection from "./components/Sections/ConsultationSection.vue";
 </script>
 
 <template>
