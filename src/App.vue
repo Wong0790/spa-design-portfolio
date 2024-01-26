@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import FreeConsultation from "./components/FreeConsultation.vue";
 import SkillsSection from "./components/SkillsSection.vue";
+import AboutSection from "./components/AboutSection.vue";
 </script>
 
 <template>
@@ -9,7 +10,7 @@ import SkillsSection from "./components/SkillsSection.vue";
   </header>
   <main>
     <SkillsSection />
-    <section id="about"></section>
+    <AboutSection />
     <section id="work"></section>
     <section id="consultation"></section>
   </main>

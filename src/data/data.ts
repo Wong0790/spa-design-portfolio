@@ -5,7 +5,7 @@ export const skills: Skill[] = [
     name: "Graphic Design",
     component: "GraphicDesignIcon",
     style:
-      "card row-span-2 col-span-2 max-h-none sm:max-h-none xl:max-h-96 bg-galactic-blue",
+      "card row-span-2 col-span-2 max-h-none sm:max-h-none lg:max-h-96 bg-galactic-blue",
   },
   {
     name: "UI/UX",

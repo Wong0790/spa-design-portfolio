@@ -14,12 +14,10 @@ export default {
         "medium-brown": "#7A746E",
         "light-cream": "#FFF7F0",
       },
-      height: {
-        96: "364px",
-      },
       maxWidth: {
         "screen-2xl": "1440px",
         "3xl": "680px",
+        xl: "540px",
       },
       minHeight: {
         44: "182px",
@@ -59,6 +57,7 @@ export default {
       },
       margin: {
         "66px": "4.125rem",
+        "34px": "2.125rem",
       },
       typography: {
         DEFAULT: {
