@@ -12,7 +12,7 @@ import {
   PhotographyIcon,
   IlustrationsIcon,
   MotionGraphicsIcon,
-} from "@/components/Icons";
+} from "./components/Icons";
 
 const app = createApp(App);
 

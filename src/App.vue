@@ -5,7 +5,7 @@ import {
   AboutSection,
   WorkSection,
   ConsultationSection,
-} from "@/components/Sections";
+} from "./components/Sections";
 </script>
 
 <template>
