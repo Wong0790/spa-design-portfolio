@@ -11,7 +11,8 @@
   "dependencies": {
     "@fontsource/plus-jakarta-sans": "^5.0.18",
     "@vueuse/core": "^10.7.2",
-    "vue": "^3.3.11"
+    "vue": "^3.3.11",
+    "vue3-carousel": "^0.3.1"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",

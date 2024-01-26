@@ -21,6 +21,7 @@ export default {
         xs: "339px",
       },
       minHeight: {
+        48: "200px",
         44: "182px",
         40: "158px",
       },
@@ -55,8 +56,10 @@ export default {
         "45px": "2.8125rem",
         "38px": "2.375rem",
         "14px": "0.875rem",
+        "5px": "0.3125rem",
       },
       margin: {
+        "88px": "5.5rem",
         "66px": "4.125rem",
         "34px": "2.125rem",
       },

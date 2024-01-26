@@ -96,3 +96,15 @@ body {
 .about-container > img {
   @apply md:absolute lg:static md:bottom-0 md:-left-16;
 }
+
+.work-container {
+  @apply text-center mt-16 md:mt-88px;
+}
+
+.carousel__item {
+  @apply min-h-48 w-full rounded-lg flex justify-center items-center;
+}
+
+.carousel__slide {
+  @apply p-1.5 lg:p-2.5;
+}

@@ -5,3 +5,5 @@ export { default as IlustrationsIcon } from "./IlustrationsIcon.vue";
 export { default as MotionGraphicsIcon } from "./MotionGraphicsIcon.vue";
 export { default as PhotographyIcon } from "./PhotographyIcon.vue";
 export { default as UxUiIcon } from "./UxUiIcon.vue";
+export { default as ArrowRight } from "./ArrowRight.vue";
+export { default as ArrowLeft } from "./ArrowLeft.vue";

@@ -1,4 +1,9 @@
-import { Skill } from "@/types/base.ts";
+import { Skill, SlideImage } from "@/types/base.ts";
+import imageSlide1 from "@/assets/image-slide-1.jpg";
+import imageSlide2 from "@/assets/image-slide-2.jpg";
+import imageSlide3 from "@/assets/image-slide-3.jpg";
+import imageSlide4 from "@/assets/image-slide-4.jpg";
+import imageSlide5 from "@/assets/image-slide-5.jpg";
 
 export const skills: Skill[] = [
   {
@@ -32,4 +37,12 @@ export const skills: Skill[] = [
     component: "MotionGraphicsIcon",
     style: "card col-span-2 max-h-none sm:max-h-40 bg-red-grape",
   },
+];
+
+export const images: SlideImage[] = [
+  { src: imageSlide1, alt: "Work Image 1" },
+  { src: imageSlide2, alt: "Work Image 2" },
+  { src: imageSlide3, alt: "Work Image 3" },
+  { src: imageSlide4, alt: "Work Image 4" },
+  { src: imageSlide5, alt: "Work Image 5" },
 ];
