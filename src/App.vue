@@ -18,5 +18,7 @@ import {
     <WorkSection />
     <ConsultationSection />
   </main>
-  <footer></footer>
+  <footer class="mt-10 lg:mt-60px">
+    <FreeConsultation />
+  </footer>
 </template>

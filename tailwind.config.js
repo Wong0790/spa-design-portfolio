@@ -65,6 +65,7 @@ export default {
       margin: {
         "88px": "5.5rem",
         "66px": "4.125rem",
+        "60px": "3.75rem",
         "34px": "2.125rem",
       },
       typography: {

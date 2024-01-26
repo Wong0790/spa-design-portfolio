@@ -1,4 +1,4 @@
-// Define the type for a skill
+// Define the type for a skill in the about section
 export interface Skill {
   name: string;
   component: string;
