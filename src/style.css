@@ -78,7 +78,7 @@ body {
 }
 
 .about-container {
-  @apply mt-24 flex flex-col md:flex-row justify-between items-center gap-x-16;
+  @apply mt-24 flex flex-col md:flex-row md:justify-end lg:justify-between items-center gap-x-16 relative;
 }
 
 .about-container h2 {
@@ -91,4 +91,8 @@ body {
 
 .about-container button {
   @apply mt-6 md:mt-8;
+}
+
+.about-container > img {
+  @apply md:absolute lg:static md:bottom-0 md:-left-16;
 }

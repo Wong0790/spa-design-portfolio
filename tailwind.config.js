@@ -18,6 +18,7 @@ export default {
         "screen-2xl": "1440px",
         "3xl": "680px",
         xl: "540px",
+        xs: "339px",
       },
       minHeight: {
         44: "182px",
