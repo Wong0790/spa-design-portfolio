@@ -1,12 +1,6 @@
 <script lang="ts" setup>
-import {
-  GraphicDesignIcon,
-  UxUiIcon,
-  AppsIcon,
-  PhotographyIcon,
-  IlustrationsIcon,
-  MotionGraphicsIcon,
-} from "@/components/Icons";
+import SkillCard from "@/components/SkillCard.vue";
+import { skills } from "@/data/data.js";
 </script>
 
 <template>
@@ -17,30 +11,7 @@ import {
       one-stop shop for your design needs.
     </p>
     <div class="skills-container">
-      <div class="card row-span-2 col-span-2 max-h-96">
-        <GraphicDesignIcon />
-        <p>Graphic Design</p>
-      </div>
-      <div class="card min-h-44">
-        <UxUiIcon />
-        <p>UI/UX</p>
-      </div>
-      <div class="card min-h-44">
-        <AppsIcon />
-        <p>Apps</p>
-      </div>
-      <div class="card col-span-2">
-        <PhotographyIcon />
-        <p>Photography</p>
-      </div>
-      <div class="card col-span-2 max-h-40">
-        <IlustrationsIcon />
-        <p>Illustrations</p>
-      </div>
-      <div class="card col-span-2 max-h-40">
-        <MotionGraphicsIcon />
-        <p>Motion Graphics</p>
-      </div>
+      <SkillCard v-for="(skill, index) in skills" :key="index" :skill="skill" />
     </div>
   </section>
 </template>

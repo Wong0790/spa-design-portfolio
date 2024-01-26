@@ -14,6 +14,9 @@ export default {
         "medium-brown": "#7A746E",
         "light-cream": "#FFF7F0",
       },
+      height: {
+        96: "364px",
+      },
       maxWidth: {
         "screen-2xl": "1440px",
         "3xl": "680px",
