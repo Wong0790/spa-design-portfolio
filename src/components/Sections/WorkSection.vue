@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import WorkCarrousel from "@/components/WorkCarrousel.vue";
+import WorkCarrousel from "../../components/WorkCarrousel.vue";
 </script>
 <template>
   <section id="work" class="work-container">

@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 import { ref, computed } from "vue";
-import { images } from "@/data/data.ts";
+import { images } from "../data/data.ts";
 import { Carousel, Navigation, Slide } from "vue3-carousel";
-import { ArrowRight, ArrowLeft } from "@/components/Icons";
+import { ArrowRight, ArrowLeft } from "../components/Icons";
 import { breakpointsTailwind, useBreakpoints } from "@vueuse/core";
 
 const breakpoints = useBreakpoints(breakpointsTailwind);
