@@ -5,6 +5,7 @@ import "@fontsource/plus-jakarta-sans/700.css";
 import "./style.css";
 import "vue3-carousel/dist/carousel.css";
 import App from "./App.vue";
+
 import GraphicDesignIcon from "./components/icons/GraphicDesignIcon.vue";
 import UxUiIcon from "./components/icons/UxUiIcon.vue";
 import AppsIcon from "./components/icons/AppsIcon.vue";
