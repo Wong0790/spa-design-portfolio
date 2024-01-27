@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { Skill } from "@customTypes/base.ts";
+import { Skill } from "../types/app-types";
 
 defineProps({
   skill: {

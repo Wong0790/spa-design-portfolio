@@ -1,4 +1,4 @@
-import { Skill, SlideImage } from "@customTypes/base";
+import { Skill, SlideImage } from "../types/app-types";
 import imageSlide1 from "@assets/image-slide-1.jpg";
 import imageSlide2 from "@assets/image-slide-2.jpg";
 import imageSlide3 from "@assets/image-slide-3.jpg";
