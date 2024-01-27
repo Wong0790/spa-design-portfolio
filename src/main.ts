@@ -5,12 +5,20 @@ import "@fontsource/plus-jakarta-sans/700.css";
 import "./style.css";
 import "vue3-carousel/dist/carousel.css";
 import App from "./App.vue";
-import GraphicDesignIcon from "@icons/GraphicDesignIcon.vue";
+import {
+  GraphicDesignIcon,
+  UxUiIcon,
+  AppsIcon,
+  PhotographyIcon,
+  IlustrationsIcon,
+  MotionGraphicsIcon,
+} from "@icons";
+/* import GraphicDesignIcon from "@icons/GraphicDesignIcon.vue";
 import UxUiIcon from "@icons/UxUiIcon.vue";
 import AppsIcon from "@icons/AppsIcon.vue";
 import PhotographyIcon from "@icons/PhotographyIcon.vue";
 import IlustrationsIcon from "@icons/IlustrationsIcon.vue";
-import MotionGraphicsIcon from "@icons/MotionGraphicsIcon.vue";
+import MotionGraphicsIcon from "@icons/MotionGraphicsIcon.vue"; */
 
 const app = createApp(App);
 
