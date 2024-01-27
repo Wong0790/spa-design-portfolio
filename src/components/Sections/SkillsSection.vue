@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import SkillCard from "@components/SkillCard.vue";
-import { skills } from "@data/data";
+import { skills } from "@customData/app-data";
 </script>
 
 <template>
