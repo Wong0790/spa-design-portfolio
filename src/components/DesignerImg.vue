@@ -12,7 +12,7 @@ const size = computed(() =>
 
 <template>
   <img
-    src="@/assets/image-amy.webp"
+    src="@assets/image-amy.webp"
     alt="Designer image"
     :width="size"
     :height="size"

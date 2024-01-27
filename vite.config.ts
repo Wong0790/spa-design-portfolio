@@ -9,7 +9,12 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "@": "/src",
+      "@assets": "/src/assets",
+      "@components": "/src/components",
+      "@icons": "/src/components/icons",
+      "@sections": "/src/components/sections",
+      "@data": "/src/data",
+      "@customTypes": "/src/customTypes",
     },
   },
 });

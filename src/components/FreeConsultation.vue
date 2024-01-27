@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import CameraIcon from "./Icons/CameraIcon.vue";
+import CameraIcon from "@icons/CameraIcon.vue";
 </script>
 
 <template>

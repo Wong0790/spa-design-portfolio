@@ -1,9 +1,9 @@
-import { Skill, SlideImage } from "./types/base.ts";
-import imageSlide1 from "../assets/image-slide-1.jpg";
-import imageSlide2 from "../assets/image-slide-2.jpg";
-import imageSlide3 from "../assets/image-slide-3.jpg";
-import imageSlide4 from "../assets/image-slide-4.jpg";
-import imageSlide5 from "../assets/image-slide-5.jpg";
+import { Skill, SlideImage } from "@customTypes/base";
+import imageSlide1 from "@assets/image-slide-1.jpg";
+import imageSlide2 from "@assets/image-slide-2.jpg";
+import imageSlide3 from "@assets/image-slide-3.jpg";
+import imageSlide4 from "@assets/image-slide-4.jpg";
+import imageSlide5 from "@assets/image-slide-5.jpg";
 
 export const skills: Skill[] = [
   {
