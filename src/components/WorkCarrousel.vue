@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { ref, computed } from "vue";
-import { images } from "@customData/app-data";
+import { images } from "../data/app-data";
 import { Carousel, Navigation, Slide } from "vue3-carousel";
 import ArrowRight from "@icons/ArrowRight.vue";
 import ArrowLeft from "@icons/ArrowLeft.vue";
