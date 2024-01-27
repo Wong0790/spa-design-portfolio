@@ -12,7 +12,7 @@ import {
   PhotographyIcon,
   IlustrationsIcon,
   MotionGraphicsIcon,
-} from "@icons";
+} from "./components/icons";
 /* import GraphicDesignIcon from "@icons/GraphicDesignIcon.vue";
 import UxUiIcon from "@icons/UxUiIcon.vue";
 import AppsIcon from "@icons/AppsIcon.vue";
