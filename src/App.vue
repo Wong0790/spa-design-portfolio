@@ -14,11 +14,11 @@ import { socials } from "./data/app-data";
   </header>
   <main>
     <SkillsSection />
-    <AboutSection />
-    <WorkSection />
-    <ConsultationSection />
+    <AboutSection v-motion-slide-visible-left />
+    <WorkSection v-motion-slide-visible-right />
+    <ConsultationSection v-motion-slide-visible-left />
   </main>
-  <footer class="mt-10 lg:mt-60px">
+  <footer class="mt-10 lg:mt-60px" v-motion-slide-visible-top>
     <FreeConsultation />
     <div class="text-center mt-24">
       <ul class="social-icons">
