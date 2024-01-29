@@ -14,4 +14,5 @@ export interface SlideImage {
 export interface Social {
   url: string;
   name: string;
+  aria: string;
 }

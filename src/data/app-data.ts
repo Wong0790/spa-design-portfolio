@@ -51,13 +51,16 @@ export const socials: Social[] = [
   {
     url: "https://www.linkedin.com/in/anneris-wong-jorge-257948104",
     name: "LinkedInIcon",
+    aria: "Anneris E. Wong Jorge LinkedIn profile",
   },
   {
     url: "https://github.com/Wong0790",
     name: "GithubIcon",
+    aria: "Anneris E. Wong Jorge Github profile",
   },
   {
     url: "https://www.frontendmentor.io/profile/Wong0790",
     name: "FrontendMentorIcon",
+    aria: "Anneris E. Wong Jorge Frowntend Mentor profile",
   },
 ];

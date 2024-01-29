@@ -23,7 +23,7 @@ import { socials } from "./data/app-data";
     <div class="text-center mt-24">
       <ul class="social-icons">
         <li v-for="(social, index) in socials" :key="index" class="group">
-          <SocialItem :url="social.url">
+          <SocialItem :url="social.url" :aria="social.aria">
             <component :is="social.name"></component
           ></SocialItem>
         </li>
