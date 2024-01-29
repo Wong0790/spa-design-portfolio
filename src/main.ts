@@ -12,6 +12,9 @@ import AppsIcon from "./components/icons/AppsIcon.vue";
 import PhotographyIcon from "./components/icons/PhotographyIcon.vue";
 import IlustrationsIcon from "./components/icons/IlustrationsIcon.vue";
 import MotionGraphicsIcon from "./components/icons/MotionGraphicsIcon.vue";
+import LinkedInIcon from "./components/icons/LinkedInIcon.vue";
+import GithubIcon from "./components/icons/GithubIcon.vue";
+import FrontendMentorIcon from "./components/icons/FrontendMentorIcon.vue";
 
 const app = createApp(App);
 
@@ -21,6 +24,9 @@ app
   .component("AppsIcon", AppsIcon)
   .component("PhotographyIcon", PhotographyIcon)
   .component("IlustrationsIcon", IlustrationsIcon)
-  .component("MotionGraphicsIcon", MotionGraphicsIcon);
+  .component("MotionGraphicsIcon", MotionGraphicsIcon)
+  .component("LinkedInIcon", LinkedInIcon)
+  .component("GithubIcon", GithubIcon)
+  .component("FrontendMentorIcon", FrontendMentorIcon);
 
 app.mount("#app");

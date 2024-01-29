@@ -120,3 +120,11 @@ body {
 .consultation-card p {
   @apply max-w-lg my-6 lg:mt-6 lg:mb-0 font-normal;
 }
+
+.social-icons {
+  @apply flex gap-3 items-center justify-center my-4;
+}
+
+.portfolio-link {
+  @apply hover:text-galactic-blue;
+}

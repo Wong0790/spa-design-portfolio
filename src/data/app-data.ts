@@ -1,4 +1,4 @@
-import { Skill, SlideImage } from "../types/app-types";
+import { Skill, SlideImage, Social } from "../types/app-types";
 import imageSlide1 from "@assets/image-slide-1.jpg";
 import imageSlide2 from "@assets/image-slide-2.jpg";
 import imageSlide3 from "@assets/image-slide-3.jpg";
@@ -45,4 +45,19 @@ export const images: SlideImage[] = [
   { src: imageSlide3, alt: "Work Image 3" },
   { src: imageSlide4, alt: "Work Image 4" },
   { src: imageSlide5, alt: "Work Image 5" },
+];
+
+export const socials: Social[] = [
+  {
+    url: "https://www.linkedin.com/in/anneris-wong-jorge-257948104",
+    name: "LinkedInIcon",
+  },
+  {
+    url: "https://github.com/Wong0790",
+    name: "GithubIcon",
+  },
+  {
+    url: "https://www.frontendmentor.io/profile/Wong0790",
+    name: "FrontendMentorIcon",
+  },
 ];

@@ -10,3 +10,8 @@ export interface SlideImage {
   src: string;
   alt: string;
 }
+
+export interface Social {
+  url: string;
+  name: string;
+}
