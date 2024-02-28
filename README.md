@@ -17,10 +17,6 @@ This is a solution to the [Single-page design portfolio challenge on Frontend Me
     - [Setup](#setup)
     - [Development Server](#development-server)
     - [Production](#production)
-- [npm](#npm)
-- [pnpm](#pnpm)
-- [yarn](#yarn)
-- [bun](#bun)
 
 ## Overview
 
@@ -54,8 +50,6 @@ Users should be able to:
 - [Vue.js](https://vuejs.org/) - Javascript framework
 - [Vite.js](https://vitejs.dev) - Development environment
 - [Vue3-Carousel](https://ismail9k.github.io/vue3-carousel) - Carousel component
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ## Author
 
