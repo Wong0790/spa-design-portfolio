@@ -1,4 +1,16 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { onMounted } from "vue";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
+onMounted(() => {
+  gsap.from("#consultation", {
+    scale: 0,
+    duration: 1,
+  });
+});
+</script>
 
 <template>
   <section id="consultation" class="padding consultation-container">

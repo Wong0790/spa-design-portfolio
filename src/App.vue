@@ -4,8 +4,8 @@ import SkillsSection from "@sections/SkillsSection.vue";
 import AboutSection from "@sections/AboutSection.vue";
 import WorkSection from "@sections/WorkSection.vue";
 import ConsultationSection from "@sections/ConsultationSection.vue";
-import SocialItem from "./components/SocialItem.vue";
-import { socials } from "./data/app-data";
+import SocialItem from "@components/SocialItem.vue";
+import { socials } from "@data/app-data";
 </script>
 
 <template>
@@ -14,11 +14,11 @@ import { socials } from "./data/app-data";
   </header>
   <main>
     <SkillsSection />
-    <AboutSection v-motion-slide-visible-left />
-    <WorkSection v-motion-slide-visible-right />
-    <ConsultationSection v-motion-slide-visible-left />
+    <AboutSection />
+    <WorkSection />
+    <ConsultationSection />
   </main>
-  <footer class="mt-10 lg:mt-60px" v-motion-slide-visible-top>
+  <footer class="mt-10 lg:mt-60px">
     <FreeConsultation />
     <div class="text-center mt-24">
       <ul class="social-icons">
