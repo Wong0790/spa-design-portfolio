@@ -29,14 +29,7 @@ import { socials } from "@data/app-data";
         </li>
       </ul>
       <span class="font-semibold text-almost-black">
-        &copy;2024
-        <a
-          href="https://wong0790-dev-profolio.netlify.app"
-          target="_blank"
-          class="portfolio-link"
-        >
-          Anneris E. Wong Jorge
-        </a>
+        &copy;2024 Anneris E. Wong Jorge
       </span>
     </div>
   </footer>
